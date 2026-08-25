@@ -1,0 +1,13 @@
+﻿{
+    "total_cases":  24,
+    "category_correct":  20,
+    "category_accuracy_percent":  83.3,
+    "severity_correct":  10,
+    "severity_accuracy_percent":  41.7,
+    "policy_correct":  17,
+    "policy_accuracy_percent":  70.8,
+    "slack_correct":  16,
+    "slack_accuracy_percent":  66.7,
+    "overall_correct":  8,
+    "overall_accuracy_percent":  33.3
+}
