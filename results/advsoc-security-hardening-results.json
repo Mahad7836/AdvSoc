@@ -1,0 +1,82 @@
+﻿[
+    {
+        "test_id":  "HARDEN-MISSING-001",
+        "actual_rejected":  true,
+        "actual_category":  null,
+        "risk_score":  null,
+        "actual_severity":  null,
+        "actual_policy":  null,
+        "actual_approval":  null,
+        "overall_pass":  true
+    },
+    {
+        "test_id":  "HARDEN-TIME-001",
+        "actual_rejected":  true,
+        "actual_category":  null,
+        "risk_score":  null,
+        "actual_severity":  null,
+        "actual_policy":  null,
+        "actual_approval":  null,
+        "overall_pass":  true
+    },
+    {
+        "test_id":  "HARDEN-NOIOC-001",
+        "actual_rejected":  false,
+        "actual_category":  "suspicious_authentication",
+        "risk_score":  31,
+        "actual_severity":  "medium",
+        "actual_policy":  "allow",
+        "actual_approval":  false,
+        "overall_pass":  true
+    },
+    {
+        "test_id":  "HARDEN-MULTIIOC-001",
+        "actual_rejected":  false,
+        "actual_category":  "malware_malicious_file",
+        "risk_score":  69,
+        "actual_severity":  "high",
+        "actual_policy":  "review",
+        "actual_approval":  true,
+        "overall_pass":  true
+    },
+    {
+        "test_id":  "HARDEN-PI-001",
+        "actual_rejected":  false,
+        "actual_category":  "phishing_malicious_url",
+        "risk_score":  50,
+        "actual_severity":  "high",
+        "actual_policy":  "review",
+        "actual_approval":  true,
+        "overall_pass":  true
+    },
+    {
+        "test_id":  "HARDEN-POLICY-001",
+        "actual_rejected":  false,
+        "actual_category":  "malware_malicious_file",
+        "risk_score":  75,
+        "actual_severity":  "critical",
+        "actual_policy":  "review",
+        "actual_approval":  true,
+        "overall_pass":  true
+    },
+    {
+        "test_id":  "HARDEN-UNKNOWN-001",
+        "actual_rejected":  false,
+        "actual_category":  "other_unknown",
+        "risk_score":  1,
+        "actual_severity":  "low",
+        "actual_policy":  "allow",
+        "actual_approval":  false,
+        "overall_pass":  true
+    },
+    {
+        "test_id":  "HARDEN-SLACK-001",
+        "actual_rejected":  false,
+        "actual_category":  "malicious_network_activity",
+        "risk_score":  75,
+        "actual_severity":  "critical",
+        "actual_policy":  "review",
+        "actual_approval":  true,
+        "overall_pass":  true
+    }
+]
