@@ -500,3 +500,28 @@ This prototype should not be treated as a production-ready autonomous incident-r
 - Final documentation: complete
 - Final v1.0 export and release: complete
 
+
+---
+
+## Visual Evidence
+
+### n8n Workflow
+
+![AdvSOC workflow overview](screenshots/workflow-overview.png)
+
+### Critical Alert Routing
+
+![Critical AdvSOC Slack alert](screenshots/critical-slack-alert.png)
+
+### Final Curated Evaluation
+
+![AdvSOC evaluation results](screenshots/evaluation-results.png)
+
+### Security Hardening
+
+![AdvSOC security hardening results](screenshots/security-hardening-results.png)
+
+The screenshots above provide selected evidence of the implemented workflow, evaluation process, notification routing, and final security-hardening checks.
+
+The reported 100% evaluation result applies only to the documented 24-case curated development/evaluation set, while the security-hardening result applies only to the separate documented 8-case hardening suite.
+
