@@ -1,4 +1,4 @@
-﻿# AdvSOC
+# AdvSOC
 
 **Policy-Governed AI SOC Analyst for Automated Threat Triage and Secure Incident Response using n8n**
 
@@ -9,6 +9,27 @@ The project explores a central security question:
 > How can an AI-assisted SOC workflow gain useful reasoning capability without allowing the AI model itself to authorize sensitive security actions?
 
 AdvSOC addresses this by separating **AI analysis** from **deterministic authorization**.
+
+## At a Glance
+
+| Dimension | AdvSOC v1.0 |
+|---|---|
+| Platform | n8n-based security automation workflow |
+| Primary use case | AI-assisted SOC alert triage and incident-response decision support |
+| Evaluation set | 24 curated SOC alert cases |
+| Final scoped evaluation | **24/24 full-case passes** on the documented development/evaluation set |
+| Security-hardening suite | **8/8 cases passed** |
+| Threat intelligence | VirusTotal enrichment |
+| Core safety boundary | LLM provides analysis; deterministic policy controls authorization |
+| High-impact actions | Simulated and/or subject to human approval |
+| Release | `v1.0.0` |
+
+The final results are intentionally scoped to the documented evaluation suites and are **not** claims of production-level or universal accuracy.
+
+[Evaluation artifacts](results/) ·
+[Final workflow](workflows/advsoc-core-v1.0.json) ·
+[Visual evidence](#visual-evidence)
+
 
 ---
 
